@@ -8,7 +8,7 @@ from pycaret.regression import load_model,predict_model
 st.set_page_config(page_title="Insurance Charges Prediction App")
 @st.cache(allow_output_mutation=True)
 def get_model():
- return load_model('regression_model')
+ return load_model('savedModels/regression_model')
 
 def predict(model,df):
  predictions = predict_model(model, data = df)
