@@ -2,7 +2,6 @@ name: base
 channels:
   - defaults
 dependencies:
-  - python=3.9.15=h218abb5_2
   - pip:
       - pandas==1.5.2
       - pycaret==3.0.0rc5
